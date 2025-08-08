@@ -1,0 +1,163 @@
+import type Car from "../../types/car.type";
+import koenigsegg from "../../assets/cars/koenigsegg.png";
+import nissan from "../../assets/cars/nissan.png";
+import rollsRoyce from  "../../assets/cars/nissan.png"
+import allNewRush from  "../../assets/cars/all-new-rush.png"
+import crV from  "../../assets/cars/cr-v.png"
+import allNewTerlos from  "../../assets/cars/all-new-terlos.png"
+import mgZs from  "../../assets/cars/mg-zx-exclusive.png"
+import newMgZs from  "../../assets/cars/new-mg-zs.png"
+
+
+
+
+const dummyCars: Car[] = [
+  {
+    id: '1',
+    name: 'Koenigsegg',
+    category: 'Popular Car',
+    type: 'Sport',
+    image: koenigsegg,
+    pricePerDay: 99.00,
+    gear: 'Manual',
+    fuel: '90 L',
+    capacity: 2,
+    liked: true,
+  },
+  {
+    id: '2',
+    name: 'Nissan GT-R',
+    category: 'Popular Car',
+    type: 'SUV',
+    image: nissan,
+    pricePerDay: 80.00,
+    gear: 'Automatic',
+    fuel: '80 L',
+    capacity: 2,
+    liked: false,
+  },
+  {
+    id: '3',
+    name: 'Rolls-Royce',
+    category: 'Popular Car',
+    type: 'Sedan',
+    image: rollsRoyce,
+    pricePerDay: 96.00,
+    gear: 'Manual',
+    fuel: '70 L',
+    capacity: 4,
+    liked: true,
+  },
+  {
+    id: '4',
+    name: 'Nissan GT-R',
+    category: 'Popular Car',
+    type: 'SUV',
+    image: nissan,
+    pricePerDay: 80.00,
+    gear: 'Automatic',
+    fuel: '80 L',
+    capacity: 2,
+    liked: false,
+  }, 
+  {
+    id: '5',
+    name: 'All New Rush',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: allNewRush,
+    pricePerDay: 72.00,
+    gear: 'Manual',
+    fuel: '72 L',
+    capacity: 6,
+    liked: false,
+  },
+  {
+    id: '6',
+    name: 'CR-V',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: crV,
+    pricePerDay: 80.00,
+    gear: 'Manual',
+    fuel: '80 L',
+    capacity: 6,
+    liked: true,
+  },
+  
+  {
+    id: '7',
+    name: 'All New Terlos',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: allNewTerlos,
+    pricePerDay: 74.00,
+    gear: 'Manual',
+    fuel: '90 L',
+    capacity: 6,
+    liked: false,
+  },
+  {
+    id: '8',
+    name: 'CR-V',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: crV,
+    pricePerDay: 80.00,
+    gear: 'Manual',
+    fuel: '80 L',
+    capacity: 6,
+    liked: true,
+  },
+
+  {
+    id: '9',
+    name: 'MG ZX Exclusive',
+    category: 'Recommended Car',
+    type: 'Hatchback',
+    image: mgZs,
+    pricePerDay: 76.00,
+    gear: 'Manual',
+    fuel: '70 L',
+    capacity: 4,
+    liked: true,
+  },
+  {
+    id: '10',
+    name: 'New MG ZS',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: newMgZs,
+    pricePerDay: 80.00,
+    gear: 'Manual',
+    fuel: '80 L',
+    capacity: 6,
+    liked: false,
+  },
+    {
+    id: '11',
+    name: 'MG ZX Excite',
+    category: 'Recommended Car',
+    type: 'Hatchback',
+    image: mgZs,
+    pricePerDay: 76.00,
+    gear: 'Manual',
+    fuel: '90 L',
+    capacity: 4,
+    liked: true,
+  },
+  {
+    id: '12',
+    name: 'New MG ZS',
+    category: 'Recommended Car',
+    type: 'SUV',
+    image: newMgZs,
+    pricePerDay: 80.00,
+    gear: 'Manual',
+    fuel: '80 L',
+    capacity: 6,
+    liked: true,
+  },
+];
+
+export default dummyCars;
