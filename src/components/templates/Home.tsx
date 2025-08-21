@@ -2,7 +2,7 @@ import TopNavBar from "../atoms/TopNavbar";
 import HeroSection from "../organisms/Hero";
 import SearchSection from "../organisms/SearchSection";
 import CarList from "../organisms/CarList";
-import Footer from "../atoms/Footer";
+import Footer from "../molecules/Footer";
 
 const Home = () => {
   return (
