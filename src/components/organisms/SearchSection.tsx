@@ -12,7 +12,7 @@ const SearchSection = () => {
   };
 
   return (
-    <section className="flex justify-center items-center px-6 py-10 mt-0 bg-[#f6f7f9]">
+    <section className="w-full flex justify-center items-center px-6 py-10 mt-0 bg-[#f6f7f9]">
       <div className="w-full max-w-6xl p-6 flex flex-col lg:flex-row gap-30 mt-0 relative">
         {/* Pickup Section */}
         <div className="flex-1">

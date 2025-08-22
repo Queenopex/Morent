@@ -17,18 +17,25 @@ const SearchBar: React.FC<SearchBarProps> = ({
   onLocationChange,
 }) => {
   return (
-    <div className="relative flex flex-col gap-2 bg-white p-4 rounded-xl shadow-md w-full max-w-xl">
+   <div className="relative flex flex-col gap-2 sm:gap-3 bg-white p-3 sm:p-4 rounded-xl shadow-md w-full">
 
-      <span>{label} </span>
-      <LocationDropdown onChange={onLocationChange} placeholder={locationPlaceholder} />
+  <span className="text-sm sm:text-base font-medium">{label}</span>
 
-      <div className="flex gap-2">
-        <DateDropDown />
-        <SwitchToggle />
-        <TimeDropDown />
-      </div>
-      
+  <LocationDropdown onChange={onLocationChange} placeholder={locationPlaceholder} />
+
+  <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 w-full items-stretch sm:items-center">
+    <div className="w-full sm:flex-1">
+      <DateDropDown />
     </div>
+    <div className="w-full sm:w-auto flex justify-center">
+      <SwitchToggle />
+    </div>
+    <div className="w-full sm:flex-1">
+      <TimeDropDown />
+    </div>
+  </div>
+</div>
+
   );
 };
 
